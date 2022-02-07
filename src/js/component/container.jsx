@@ -2,54 +2,23 @@ import React from "react";
 
 const Container = () => {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-			<div className="container-fluid">
-				<a className="navbar-brand" href="#">
-					Navbar
-				</a>
-				<button
-					className="navbar-toggler"
-					type="button"
-					data-bs-toggle="collapse"
-					data-bs-target="#navbarNavDropdown"
-					aria-controls="navbarNavDropdown"
-					aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span className="navbar-toggler-icon"></span>
-				</button>
-				<div
-					className="collapse navbar-collapse"
-					id="navbarNavDropdown">
-					<ul className="navbar-nav">
-						<li className="nav-item">
-							<a
-								className="nav-link active"
-								aria-current="page"
-								href="#">
-								Home
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								About
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Services
-							</a>
-						</li>
-						<li className="nav-item">
-							<a className="nav-link" href="#">
-								Contact
-							</a>
-						</li>
-					</ul>
-				</div>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Lorem ipsum</h1>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+					sed do eiusmod tempor incididunt ut labore et dolore magna
+					aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+					ullamco laboris nisi ut aliquip ex ea commodo consequat.
+				</p>
+				<p>
+					<a class="btn btn-primary btn-lg" role="button">
+						Leer más
+					</a>
+				</p>
 			</div>
-		</nav>
+		</div>
 	);
 };
-
 
 export default Container;
