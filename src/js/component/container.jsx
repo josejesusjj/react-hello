@@ -3,7 +3,7 @@ import Jumbotron from "./jumbotron.jsx";
 import Card from "./card.jsx";
 
 const Container = () => {
-	return <Card />;
+	return (<h1>Hola</h1>);
 };
 
 export default Container;
