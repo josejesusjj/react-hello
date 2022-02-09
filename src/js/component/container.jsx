@@ -4,7 +4,7 @@ import Card from "./card.jsx";
 
 const Container = () => {
 	return (
-		<div>
+		<div className="container">
 			<Jumbotron />
 			<Card />
 		</div>

@@ -10,7 +10,11 @@ const Home = () => {
 	return (
 		<div>
 			<Navbar />
-			<Container />
+
+			<div style="width:800px">
+				<Container />
+			</div>
+
 			<Footer />
 		</div>
 	);
