@@ -11,7 +11,7 @@ const Home = () => {
 		<div>
 			<Navbar />
 
-			<div style="width:800px">
+			<div>
 				<Container />
 			</div>
 
