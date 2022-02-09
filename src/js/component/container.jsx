@@ -4,8 +4,7 @@ import Card from "./card.jsx";
 
 const Container = () => {
 	return <Jumbotron />;
-
+	return <Card />;
 };
 
 export default Container;
-
