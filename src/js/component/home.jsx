@@ -3,6 +3,7 @@ import React from "react";
 //include images into your bundle
 import Navbar from "./navbar.jsx";
 import Container from "./container.jsx";
+import Footer from "./footer.jsx";
 
 //create your first component
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
 		<div>
 			<Navbar />
 			<Container />
+			<Footer />
 		</div>
 	);
 };
