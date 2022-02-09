@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
 	return (
-		<div class="jumbotron">
+		<div class="card">
 			<div class="container">
 				<h1>A Warm Welcome!</h1>
 				<p>
